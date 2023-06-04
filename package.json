@@ -1,4 +1,5 @@
 {
+  "homepage": "https://valek-web.github.io/vk-script/",
   "name": "vk-panel",
   "version": "0.1.0",
   "private": true,
@@ -12,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.3",
     "fetch-jsonp": "^1.2.3",
+    "gh-pages": "^5.0.0",
     "jsonp": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -22,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
