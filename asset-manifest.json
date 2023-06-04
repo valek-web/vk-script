@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vk-script/static/css/main.abb6969b.css",
+    "main.js": "/vk-script/static/js/main.5e0db204.js",
+    "static/media/vk-panel-logo.svg": "/vk-script/static/media/vk-panel-logo.0cab5c4620e0030785703d7391ef314c.svg",
+    "index.html": "/vk-script/index.html",
+    "main.abb6969b.css.map": "/vk-script/static/css/main.abb6969b.css.map",
+    "main.5e0db204.js.map": "/vk-script/static/js/main.5e0db204.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abb6969b.css",
+    "static/js/main.5e0db204.js"
+  ]
+}
