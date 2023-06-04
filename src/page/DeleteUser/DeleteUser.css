@@ -1,0 +1,50 @@
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 100px 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.delete-user__logo {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0 20px;
+}
+
+.delete-user__wrapper {
+    max-width: 322px;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.delete-user__label {
+    text-align: center;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.delete-user__dropdown {
+    margin: 20px 0;
+}
+
+.delete-user__link {
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+    .popup {
+        width: 90%;
+        max-width: 100%;
+    }
+}

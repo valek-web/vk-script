@@ -1,0 +1,13 @@
+.notFound {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  padding: 50px 0 0;
+}
+
+.sub-notFound {
+  color: #ffffff8e;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+}

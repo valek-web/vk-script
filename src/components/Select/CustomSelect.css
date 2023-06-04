@@ -1,0 +1,35 @@
+.Mui-focused.MuiFormLabel-root {
+  color: #e5ac21 !important;
+}
+
+.Mui-focused .MuiOutlinedInput-notchedOutline {
+  border-color: #e5ac21 !important;
+}
+
+.MuiInput-underline::after {
+  border-color: #e5ac21 !important;
+}
+
+.Mui-focused .MuiInputLabel  {
+  color: #e5ac21 !important;
+}
+
+li[aria-selected="true"] {
+  background-color: rgba(210, 208, 25, 0.08) !important
+}
+
+label[data-color="true"] {
+  color: #fff;
+}
+
+div[data-color="true"]::before {
+  border-bottom: 1px solid rgb(255 255 255);
+}
+
+div[data-color="true"]:hover:not(.Mui-disabled, .Mui-error):before {
+  border-bottom: 2px solid rgb(255 255 255);
+}
+
+div[data-color="true"] > [data-testid="ArrowDropDownIcon"] {
+  color: #fff !important;
+}
